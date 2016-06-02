@@ -5,7 +5,7 @@ import { RedditArticleComponent } from './reddit-article';
 
 @Component({
   moduleId: module.id,
-  selector: 'angular2-reddit-app',
+  selector: 'reddit',
   directives: [RedditArticleComponent],
   template: `
   <form class="ui large form segment">

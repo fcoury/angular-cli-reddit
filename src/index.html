@@ -19,9 +19,27 @@
     }
   </script>
   -->
+  <link rel="stylesheet" type="text/css" href="app/vendor/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="app/styles.css">
 </head>
 <body>
-  <angular2-reddit-app>Loading...</angular2-reddit-app>
+  <div class="ui menu">
+    <div class="ui container">
+      <a href="#" class="header item">
+        <img class="logo" src="app/images/ng-book-2-minibook.png">
+        ng-book 2
+      </a>
+      <div class="header item borderless">
+        <h1 class="ui header">
+          Angular 2 Simple Reddit
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui main text container">
+    <reddit>Loading...</reddit> <!-- <--- Our app loads here! -->
+  </div>
 
   <script src="vendor/es6-shim/es6-shim.js"></script>
   <script src="vendor/reflect-metadata/Reflect.js"></script>

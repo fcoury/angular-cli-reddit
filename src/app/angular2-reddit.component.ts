@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Article } from './article/index';
+import { Article } from './article';
 import { RedditArticleComponent } from './reddit-article';
 
 @Component({
